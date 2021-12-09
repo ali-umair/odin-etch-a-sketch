@@ -17,6 +17,9 @@ for(let i = 0; i<columnSize*columnSize; i++) {
     gridContainer.appendChild(grid);
 
     grid.addEventListener('mouseenter', (e) => {
-        grid.style.backgroundColor = "black"
+        grid.style.backgroundColor = "black";
     })
 }
+
+const clearBtn = document.querySelector('.clear');
+clearBtn.addEventListener('click', ()=>{location.reload();});
