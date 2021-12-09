@@ -1,3 +1,7 @@
+:root {
+  --column: 16;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -8,7 +12,7 @@
   height: 550px;
   width: 550px;
   display: grid;
-  grid-template-columns: repeat(16, 1fr);
+  grid-template-columns: repeat(var(--column), 1fr);
 }
 
 .grid {
