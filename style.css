@@ -14,7 +14,3 @@
 .grid {
   background-color: rgb(27, 92, 92);
 }
-
-.grid:hover {
-  background-color: black;
-}
